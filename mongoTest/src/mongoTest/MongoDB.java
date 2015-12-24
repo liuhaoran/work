@@ -7,8 +7,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
-import org.bson.Document;
 //import org.bson.BSON;
+import org.bson.*;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.InsertOptions;
@@ -18,7 +18,7 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.model.InsertManyOptions;
+//import com.mongodb.client.model.insertManyOption;
 
 public class MongoDB extends Thread {
 	private MongoClient mongoClient;
