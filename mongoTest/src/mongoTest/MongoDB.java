@@ -13,12 +13,12 @@ import org.bson.Document;
 import com.mongodb.BasicDBObject;
 import com.mongodb.InsertOptions;
 import com.mongodb.MongoClient;
-//import com.mongodb.WriteConcern;
+import com.mongodb.WriteConcern;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
-//import com.mongodb.client.model.InsertManyOptions;
+import com.mongodb.client.model.InsertManyOptions;
 
 public class MongoDB extends Thread {
 	private MongoClient mongoClient;
